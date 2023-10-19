@@ -1,0 +1,11 @@
+wmic bios get serialnumber
+wmic os get osarchitecture
+wmic cpu get name
+wmic path win32_VideoController get name
+wmic PATH Win32_videocontroller GET adapterram
+wmic memorychip get speed
+wmic memphysical get MaxCapacity,MemoryDevices
+wmic MEMORYCHIP get banklabel, capacity, caption, devicelocator, partnumber
+wmic logicaldisk get deviceid, volumename, description
+#!ps
+Get-NetAdapter | where Status -eq "Up" | select InterfaceDescription, LinkSpeed, FullDuplex

@@ -1,0 +1,2 @@
+#timeout=500000
+wmic product get installdate, name, version, vendor

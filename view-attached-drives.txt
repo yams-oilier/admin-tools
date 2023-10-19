@@ -1,0 +1,1 @@
+wmic diskdrive get size,status,TotalCylinders,TotalSectors,SCSIPort,SCSITargetId,model
